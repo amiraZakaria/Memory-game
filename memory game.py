@@ -122,7 +122,7 @@ while True:
     s1 = time.time()
     grid_clear()
     generate_numbers()
-    print(grid)
+    #print(grid)
     play_game(s1)
     c = input('Play Again [Y/N] ')
     if c not in 'yY':
